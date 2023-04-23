@@ -1,0 +1,17 @@
+@use './colors' as colors;
+
+.wrapper {
+}
+
+.button {
+	width: 150px;
+	height: 40px;
+	border: none;
+	border-radius: 30px;
+	background-image: linear-gradient(90deg, rgba(49, 211, 92, 1) 0%, rgba(43, 183, 218, 1) 68%);
+	color: colors.$white;
+}
+
+.header {
+	max-width: 1400px;
+}
